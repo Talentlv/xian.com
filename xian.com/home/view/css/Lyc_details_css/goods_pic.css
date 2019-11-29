@@ -1,0 +1,51 @@
+.goods .wrap_goods .goods_video_pic{
+	width: 470px;
+	float: left;
+	position: relative;
+}
+.goods .wrap_goods .goods_video_pic .goods_big_pig{
+	width: 468px;
+	height: 468px;
+	border: 1px solid #dcdcdc;
+	cursor: pointer;
+}
+.goods .wrap_goods .goods_video_pic .goods_big_pig img{
+	width: 468px;
+	height: 468px;
+}
+
+.goods .wrap_goods .goods_video_pic .goods_other_pic{
+	width: 470px;
+	height: 100px;
+	margin-top:20px; 
+}
+.goods .wrap_goods .goods_video_pic .goods_other_pic .fix_pic{
+	width: 493px;
+	list-style: none;
+	padding: 0;
+}
+.goods .wrap_goods .goods_video_pic .goods_other_pic .fix_pic .active{
+	width: 100px;
+	height: 100px;
+	margin-right:23px;
+	margin-bottom: 10px;
+	float: left; 
+}
+.goods .wrap_goods .goods_video_pic .goods_other_pic .fix_pic li{
+	width: 100px;
+	height: 100px;
+	margin-right:23px;
+	margin-bottom: 10px;
+	float: left; 
+	cursor:pointer;
+}
+.goods .wrap_goods .goods_video_pic .goods_other_pic .fix_pic li img{
+	width: 100px;
+	height: 100px;
+}
+.goods .wrap_goods .goods_video_pic .goods_other_pic .fix_pic li.active img{
+	border: 2px solid #434343;
+}
+.goods .wrap_goods .goods_video_pic .goods_other_pic .fix_pic li img:hover{
+	border: 2px solid #434343;
+}

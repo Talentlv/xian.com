@@ -1,0 +1,54 @@
+body{
+    background: url("../img/bg.png") no-repeat 0px 50px;
+    background-color: #fffd3f;
+    
+    background-size: 50%;
+    margin: 30px;
+    padding: 0;
+}
+input{
+    outline: none;
+}
+form{
+    position: absolute;
+    top: 50%;
+    margin-top: -293px;
+    right: 100px;
+    background: url("../img/frame.png") no-repeat;
+    width: 591px;
+    height: 586px;
+}
+p{
+    display: inline;
+    line-height: 27px;
+}
+table{
+    width: 500px;
+    margin: 0 auto;
+}
+td{
+    height: 35.5px;
+}
+td.right{
+    width: 240px;
+}
+#username,#price,#O_price,#Sales,#Major_flower,#Major_flower_plus,#Deputy_flower,#Classification_flower,#Tech,#Decoration,#Object,#Holiday,#Scene,#color,#Photo_addr{
+    border-radius: 5px;
+    height: 25px;
+    border: 0;
+}
+#submit{
+    margin-left: 100px;
+}
+#submit,#reset{
+    border: 0;
+    background: orange;
+    border-radius: 5px;
+}
+#submit:hover,#reset:hover{
+    background: purple;
+}
+span{
+    height: 27px;
+    background: url("../img/frame1.png") no-repeat;
+}

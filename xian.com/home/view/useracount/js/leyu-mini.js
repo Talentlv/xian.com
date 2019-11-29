@@ -1,0 +1,31 @@
+//document.writeln("		<script type=\'text/javascript\' charset=\'utf-8\' src=\'https://gate.soperson.com/20003303/10103775.js\'></script>");
+document.writeln("<link rel='stylesheet' href='/static/bwChat/css/chat.min.css'>");
+document.writeln("<script src='/static/bwChat/jquery.bwChat.min.js'></script>");
+document.writeln("<script>");
+/*
+document.writeln("$.bwWelcome({");
+document.writeln("	timeout: 15000,");
+document.writeln("	background: '/static/bwChat/img/comleyu.png',");
+document.writeln("	open: ['#fff', '#FF8B8E', '#fff', '#FEB4B6'],");
+document.writeln("	close: ['#666', '#eee', '#000', '#ddd'],");
+document.writeln("	handle: openChat");
+document.writeln("});");
+*/
+document.writeln("function openChat(e){");
+document.writeln("   $(e).bwChat({");
+document.writeln("        group: 10080395,");
+document.writeln("        channel: 33114,");
+document.writeln("        colorStyle:'#ccaa7a',");
+document.writeln("        logo:'/static/bwChat/img/logo.png',");
+document.writeln("        emotpath:'/static/bwChat/img/emot/',");
+document.writeln("        tip:'鲜家网',");
+document.writeln("        h5Notify:false,");
+document.writeln("        avator:'/static/bwChat/img/CustomerService.png',");
+document.writeln("        mobile:false,");
+document.writeln("        email:false,");
+document.writeln("        phone:'400-888-1571',");
+document.writeln("        work:'08:00 ~ 23:00',");
+document.writeln("        obj:$('.cservice')");
+document.writeln("    })");
+document.writeln("}");
+document.writeln("</script>");

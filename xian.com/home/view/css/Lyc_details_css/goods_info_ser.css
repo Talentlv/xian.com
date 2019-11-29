@@ -1,0 +1,22 @@
+.goods .wrap_goods .goods_info .goods_service{
+	padding: 10px 30px;
+	width: 600px;
+	height: 100px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: rgb(220, 220, 220);
+	border-image: initial;
+	margin-top: -30px;
+}
+.goods .wrap_goods .goods_info .goods_service .ser_left{
+	float: left;
+	width: 460px;
+	color: rgb(153, 153, 153);
+	line-height: 25px;
+}
+.goods .wrap_goods .goods_info .goods_service .ser_right{
+	float: right;
+	width: 120px;
+	line-height: 50px;
+	text-align: center;
+}

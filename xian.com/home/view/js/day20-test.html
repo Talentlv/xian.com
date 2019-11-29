@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<form action="./day20-test.php" method="gets">
+		<div>img</div>
+		<span>价格 ￥277</span>
+		<button type="submit">提交</button>
+	</form>
+	<script type="text/javascript">
+		
+		
+		function get_cookie(cookieName){
+		    //判断cookie是否存在
+		    if (document.cookie.length>0){
+		        pos=document.cookie.indexOf(cookieName + "=")
+		        if (pos!=-1){ 
+		            pos=pos + cookieName.length+1 
+		            last=document.cookie.indexOf(";",pos)
+		            if (last==-1) last=document.cookie.length;
+		            return unescape(document.cookie.substring(pos,last))
+		        } 
+		    }
+		    	return "cookie不存在!";
+		}
+		console.log(get_cookie('id'));
+	</script>
+</body>
+
+</html>

@@ -1,0 +1,338 @@
+<style type="text/css">
+		a{
+		    color: #333;
+		    text-decoration: none;
+        }
+		.topper .h-left img {
+               margin-top: 10px;
+		}
+		.topper {
+			    height: 104px;
+			    line-height: 103px;
+			    width: 100%；
+			    font-size: 14px;
+			    color: #333;
+			    background-color: #fff;
+			    border-bottom: 1px solid #ececec;
+			    text-align: center;
+			    margin: 0px;
+		}
+		.wzwrap {
+			height:104px;
+		    width: 60%;
+		    margin: 0 auto;
+   		}
+		.topper .h-left {
+			    height: 100px;
+			    float: left;
+  		}
+		.topper .h-right {
+				    position: relative;
+				    float:left;
+				   
+				    height: 100px;
+		}
+		.topper .h-right .r_link{
+					text-align: left;
+				    padding: 0 25px;
+					height: 100px;
+					line-height: 100px;
+					display: inline-block;
+					margin-left: -3px;
+					margin-bottom: 30px;
+					float: left;
+    	}
+		.topper .h-right #search{
+   			 display: inline-block;
+   			 float: left;
+   			 margin-top: 30px;
+		}
+		.wzinput{
+   			 vertical-align: middle;
+   			 border: none;
+   			 background: url("../images/search.png") no-repeat 10px;
+   			 background-size: 20px;
+   			 text-indent: 40px;
+   			 height: 42px;
+		}
+		.topper .wrap .h-right .search-frame {
+  			width: 175px;
+  			height: 42px;
+  			line-height: 42px;
+  			border:none;
+    		position: relative;
+		}
+		.topper .wrap .h-right #h-right-other{
+			float: left;
+			margin: 20px;
+			text-indent: 10px;
+		}
+		.topper .wrap .h-right #h-right-other img{
+			margin: 10px;
+		}
+		.q{
+			border
+		}
+
+
+		.footer .wrap{
+			width: 1200px;
+			height: 250px;
+			margin: 0 auto;
+			position: relative;
+		}
+
+		.footer .wrap .footer_item_link{
+			float: left;
+			margin-top: 60px;
+			width: 398px;
+		}
+		.footer .wrap .footer_item_link a{
+			margin: 5px;
+			text-decoration: none;
+		}
+		.footer .wrap .footer_item_link p{
+			font-size: 12px;
+			color: #333;
+			line-height: 2;
+			margin-top: 26px;
+		}
+
+		.footer .wrap .r_code{
+			text-align: center;
+			float: left;
+			margin-top: 45px;
+			width: 398px;
+		}
+		.footer .wrap .r_code img{
+			box-shadow: 0 0 20px #ccc;
+			margin-bottom: 15px;
+		}
+
+		.footer .wrap .footer_other{
+			float: right;
+			margin-top: 60px;
+			margin-left: 6px;
+			width: 398px;
+			display: inline-block;
+		}
+		.footer .wrap .footer_other .footer_other_link{
+			margin-bottom: 32px;
+		}
+		.footer .wrap .footer_other .footer_other_link a{
+			text-decoration: none;
+			margin: 22px;
+			color: #333;
+		}
+		.footer .wrap .footer_other .footer_other_link a:hover{
+			color: red;
+		}
+		.footer .wrap .footer_other .footer_other_tel{
+			margin-left: 24px;
+			margin-bottom: 24px;
+			color: #777;
+		}
+		.footer .wrap .footer_other .footer_other_tel span{
+			margin-left: 24px;
+			color: #333;
+			font-weight: 700;
+		}
+		.footer .wrap .footer_other .footer_other_customs{
+			margin-left: 24px;
+			padding: 12px 28px;
+			border: 1px solid #dcdcdc;
+			border-radius: 5px;
+			display: inline-block;
+			cursor: pointer;
+		}
+		.footer .wrap .footer_other .footer_other_customs a{
+			text-decoration: none;
+			color: #333;
+		}
+		.footer .wrap .footer_other .footer_other_customs a:hover{
+			color: red;
+		}
+		 /*吕有才*//*吕有才*/
+		 /*吕有才*//*吕有才*/
+		 /*吕有才*//*吕有才*/
+		 /*吕有才*/ /*吕有才*/
+		*{
+			margin: 0;
+			padding: 0;
+			list-style: none;
+		}
+		a{
+			color: #333;
+			text-decoration: none;
+		}
+		a:hover{
+			color: #ff2f2f;
+			cursor: pointer;
+		}
+		.login-content{
+			height: 812px;
+			background-image: url(../images/bg.png);
+		}
+		.wrap{
+			width: 100%;
+			margin: 0 auto;
+			position: relative;
+		}
+		.login-box{
+			width: 580px;
+			height: 600px;
+			position: absolute;
+			top: 200px;
+			right: 350px;
+			background-color: #fff;
+			border-radius: 10px;
+			box-shadow: 0 0 20px #e5e5e5;
+		}
+		.box{
+			padding-top: 30px;
+			margin: 0 112px;
+			border-bottom: 1px solid #e2e2e2;
+		}
+		.box ul{
+			height: 55px;
+			padding: 0 60px;
+		}
+		.clearfix{
+			clear: both;
+		}
+		.box ul li{
+			width: 50%;
+    		height: 55px;
+    		line-height: 55px;
+    		font-size: 14px;
+    		color: #777;
+    		float: left;
+    		text-align: center;
+		}
+		.box ul li.active{
+			height: 54px;
+    		line-height: 54px;
+    		border-bottom: 3px solid #63c170;
+    		font-size: 24px;
+    		font-weight: 700;
+    		color: #63c170;
+		}
+		.box ul li.active a{
+			color: #63c170;
+		}
+		.login-type{
+			height: 25px;
+			line-height: 25px;
+			text-align: right;
+			margin-top: 10px;
+			margin-bottom: 10px;
+			margin-right: 112px;
+		}
+		.login-type a{
+			color: #63c170;
+		}
+		.login-formbd{
+			margin: 0 112px;
+		}
+		.item{ position: relative; }
+		.input-style{
+			width: 296px;
+		    height: 30px;
+		    padding-top: 30px;
+		    outline: none;
+		    font-size: 14px;
+		    color: #999;
+		    border: 0;
+		    border-bottom: 1px solid #e5e5e5;
+		    vertical-align: middle;
+		}
+		.input-style:hover{
+			color: #333;
+			border: 0;
+			border-bottom: 1px solid #63c170;
+		}
+		.button-style{
+			width: 100%;
+		    padding: 12px 0;
+		    display: block;
+		    margin: 0 auto;
+		    font-size: 18px;
+		    color: #fefefe;
+		    text-align: center;
+		    background-color: #63c170;
+		    border: 1px solid #63c170;
+		    border-radius: 5px;
+		    outline: none;
+		    cursor: pointer;
+		    vertical-align: middle;
+		    margin-top: 50px;
+		}
+		.forget{
+			height: 18px;
+			display: block;
+			margin-top: 10px;
+			color: #999;
+		}
+		.other-login{
+			margin-top: 20px;
+			text-align: center;
+			color: #999;
+		}
+		.hr{
+			width: 38%;
+			height: 1px;
+			margin-top: 10px; 
+			background-color: #999;
+			opacity: 0.3;
+		}
+		.left{ float: left; }
+		.right{ float: right; }
+		.login-link{
+			margin-top: 20px;
+			text-align: center;
+		}
+		.login-link a{
+			display: inline-block;
+			margin: 0 10px;
+		}
+		.login-link .wxicon{
+			width: 32px;
+			height: 32px;
+			background-image: url(images/wx-0.png);
+		}
+		.login-link .wxicon:hover{
+			background-image: url(images/wx-1.png);
+		}
+		.login-link .qqicon{
+			width: 32px;
+			height: 32px;
+			background-image: url(images/QQ-0.png);
+		}
+		.login-link .qqicon:hover{
+			background-image: url(images/QQ-1.png);
+		}
+		.login-link .zfbicon{
+			width: 32px;
+			height: 32px;
+			background-image: url(images/zfb-0.png);
+		}
+		.login-link .zfbicon:hover{
+			background-image: url(images/zfb-1.png);
+		}
+		.button-small {
+			width: 40%;
+		    padding: 5px 15px;
+		    font-size: 14px;
+		    color: #fefefe;
+		    text-align: center;
+		    background-color: #63c170;
+		    border: 1px solid #63c170;
+		    border-radius: 3px;
+		    outline: none;
+		    cursor: pointer;
+		    vertical-align: middle;
+		    float: right;
+		    margin-top: -38px;
+		    margin-right: 28px;
+		}
+	</style>

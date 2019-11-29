@@ -1,0 +1,240 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.yc-wrap{
+	width: 1200px;
+	margin: 0 auto;
+	position: relative;
+}
+/*.yf_bigbox{
+	width: 1900px;
+	margin: 0px auto;
+}*/
+.yf_top1{
+	margin: 0px auto;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 36px;
+}
+.yf_top1 img{
+	margin: 0px auto;
+
+}
+.yf_guide{
+	position: relative;
+	margin: 0px auto;
+	height: 120px;
+	margin-top: 40px;
+}
+.yf_guide .guide-item{
+	width: 193px;
+    height: 102px;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    margin-right: 26px;
+    cursor: context-menu;
+    text-align: center;
+    float: left;
+}
+.yf_guide .last{margin-right: 0;}
+.yf_guide .guide_1{
+	width: 102px;
+    height: 102px;
+    margin-right: 25px;
+    float: left;
+    background-color: #a8daad;
+    text-align: center;
+    display: table;
+    font-weight: 700;
+    font-size: 16px;
+}
+.yf_guide .guide_1 p{
+	display: table-cell;
+    vertical-align: middle;
+    height: 102px;
+    position: relative;
+}
+.yf_guide .guide_1 .text_1{
+	display: inline-block;
+	width: 80px;
+	font-size: 30px;
+    color: #fff;
+}
+.yf_guide .guide_1 .text_2{
+	width: 102px;
+    color: #fff;
+    font-size: 12px;
+    display: inline-block;
+    margin: 0 auto;
+}
+.yf_guide .guide-item .text_1{
+	font-size: 16px;
+    font-weight: 700;
+    margin-top: 24px;
+    margin-bottom: 16px;
+    display: block;
+}
+.yf_guide .guide-item .text_2{
+	font-size: 14px;
+    font-weight: normal;
+    margin-left: 12px;
+}
+.yf_guide .guide-item .appl a{
+	color: #75a075;
+}
+.yf_guide .guide-item .price a{
+	color: #9d7d52;
+}
+.yf_guide .guide-item .met a{
+	color: #5c7d91;
+}
+.yf_guide .guide-item .text_2 a:hover{
+	color: #ff2f2f;
+}
+.yf_index{
+	margin: 0 auto;
+	background: rgb(244,244,244);
+	margin-top: 20px;
+	margin-bottom: 28px;
+	height: 35px;
+	line-height: 35px;
+	font-size: 14px;
+}
+.yf_index a{
+	text-decoration: none;
+	color: #333;
+	margin: 20px;
+}
+.yf_index li{
+	list-style: none;
+	display: inline-block;
+	float: left;
+}
+.yf_index li.active{
+	text-decoration: none;
+	color: #34b11f;
+}
+.yf_index li.active a{
+	text-decoration: none;
+	color: #34b11f;
+}
+.yf_index a:hover{
+	color: #ff2f2f;
+}
+.goods{
+	margin: 0px auto;
+}
+.goods a{
+	text-decoration: none;
+	color: black;
+}
+.goods img{
+	width: 349px;
+	margin: 0px auto;
+	text-align: center;
+	transition: all 0.6s;    /*//设置浮动的时间*/
+	box-shadow: 8px 8px 8px #ccc;
+}
+.goods img:hover{
+	transform: scale(1.05);		/*设置放大的倍数*/
+}
+.goods_div{
+	margin-top: 40px;
+	width: 23%;
+	float: left;
+
+}
+.goods_text{
+	text-align: center;
+}
+.goods_text_1{
+	height: 50px;
+	line-height: 50px;
+}
+.goods_price{
+	height: 50px;
+	width: 250px;
+	line-height: 50px;
+	text-align: center;
+	margin: 0px auto;
+	border-bottom: 1px solid #eaeaea;
+}
+.goods_text_2{
+	color: red;
+	font-weight: bold;
+	font-size:24px;
+	height: 50px;
+	line-height: 50px;
+}
+.goods_text_3{
+	margin-left: 20px;
+	color: #ccc;
+	font-weight: bold;
+	font-size:18px;
+	height: 50px;
+	line-height: 50px;
+}
+.goods_text_4{
+	color: #a17536;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+/*youcai*/
+.choose-box{
+	width: 248px;
+	position: absolute;
+	top: 105px;
+	text-align: center;
+	padding: 20px 0;
+	z-index: 999;
+	/*font-size: 14px;*/
+
+}
+.choose-box a{
+	display: inline-block;
+	float: left;
+	width: 90px;
+	margin: 10px 10px;
+	font-size: 14px;
+	text-align: center;
+	font-weight: normal;
+}
+.choose-box a:hover{
+	text-decoration: underline;
+}
+
+/*page-nav*/
+.page-nav{margin-top: 24px;background-color: #fff;text-align: center;}
+.page-nav ul{letter-spacing: -8px;border-right: 1px solid #e6e6e6;display: inline-block;*display:inline;border-right: 1px solid #e6e6e6;}
+.page-nav ul li{letter-spacing:normal;display: inline-block;*display:inline;*margin-left: -4px;}
+.page-nav ul li .active{color: #fff;background-color: #77cb7f;padding: 14px 12px;border: 1px solid #77cb7f;border-right: 0;display: inline-block;}
+.page-nav ul li a{padding: 14px 12px;border: 1px solid #e6e6e6;display: inline-block;border-right: 0;text-decoration: none;color: #333;}
+.page-nav ul li a:hover{color: #fff;background-color: #77cb7f;padding: 14px 12px;border: 1px solid #77cb7f;border-right: 0;}
+/* .page-nav ul li:last-child{border-right: 1px solid #e6e6e6;} */
+.page-nav ul li span{padding: 14px 12px;border: 1px solid #e6e6e6;display: inline-block;border-right: 0;text-decoration: none;color: #333;}
+
+/* seckill 秒杀 */
+.seckills .seckill a{color: #333;}
+.seckills .seckill a:hover{color: #ff2f2f;cursor: pointer;}
+.seckills .seckill{position: relative;margin:0 !important;width: 277px !important; *display: inline;*zoom:1;}
+.seckills .seckill_r{float: right;}
+/*.seckills .seckill div{position: absolute;width: 277px;text-align: center;left: 0;right: 0;margin: 0 auto;}*/
+.seckills .seckill .seckill-timer-tip{position: absolute; width: 277px; text-align: center; top:80px;font-size: 18px;*display: inline;*zoom:1;}
+.seckills .seckill .seckill-timer{position: absolute;top:140px;left: 20px; font-size: 22px;*display: inline;*zoom:1;}
+.seckills .seckill .seckill-timer span{background-color: #2d3b28;color:#fff;margin:0 4px;padding:0 4px;border-radius: 5px;}
+.seckills .seckill .seckill-timer-btn{position: absolute;width: 135px;top:220px;left:0;*left: 50px;margin: 0 auto;right: 0;color: #f62a0e;font-size: 14px;font-weight: 700;padding: 8px 20px;border: 1px solid #f62a0e;border-radius: 20px;cursor: pointer;*display: inline;*zoom:1;}
+.seckills .seckill .seckill-timer-btn:hover{background-color:#f8b3c6;color:#fff;border:1px solid #f8b3c6;}
+.seckills .seckill-item{position: relative;margin-left: 7px;display: inline-block;height: 326px;width: 297px;*display: inline;*zoom:1;*float: left;text-align: center;}
+.seckills .seckill-item-title{position: absolute;left:0;width:297px;bottom: 0; }
+.seckills .seckill-item-info{font-size: 16px;text-align: center;display: block;*zoom:1;color: #333;}
+.seckills .seckill-item-info:hover{color: #ff2f2f;cursor: pointer;}
+.seckills .seckill-item-cut{width: 80px; height: 22px; line-height: 22px; border: 1px solid #f62a0e;border-radius: 5px;color: #f62a0e;margin:10px auto;text-align: center;display: block;*zoom:1;}
+
+
+/*footer*/
+.footer{
+	margin-top: 100px;
+}

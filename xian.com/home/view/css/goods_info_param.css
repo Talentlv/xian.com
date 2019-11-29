@@ -1,0 +1,22 @@
+.goods .wrap_goods .goods_info .goods_param{
+	border-top: 1px solid #dcdcdc;
+	border-bottom: 1px solid #dcdcdc;
+	height: 80px;
+	position: relative;
+	padding: 10px 0;
+}
+.goods .wrap_goods .goods_info .goods_param li{
+	list-style: none;
+	height: 30px;
+	line-height: 30px;
+	width: 50%;
+	float: left;
+	font-size: 14px;
+	color: #333;
+	overflow: hidden; 
+}
+.goods .wrap_goods .goods_info .goods_param li label{
+	width: 75px;
+	display: inline-block;
+	color: #333;
+}

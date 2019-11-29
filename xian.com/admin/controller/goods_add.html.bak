@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>添加商品</title>
+	<script type="text/javascript" src="./jquery-3.4.1/jquery-3.4.1.js"></script>
+	<link type="text/css" rel="stylesheet" href="css/css.css"/>
+	<style >
+		.g_ins{
+			text-align: center;
+		}
+		label{
+			margin-right: 20px;
+			width: 100px;
+		}
+		.green{
+			color: green;
+			font-size: 12px;
+		}
+		.red{
+			color: #f00;
+			font-size: 12px;
+		}
+	</style>
+	
+</head>
+<body>
+	<div class="g_ins">
+		<div class="container">
+			<h3>商品添加</h3>
+			<form action="./goods_add.php" method="post" >
+				<div class="inp_label"></div>
+					<table>
+						<tr>
+               			 	<td>
+                   			 商&nbsp;&nbsp;&nbsp;品&nbsp;&nbsp;&nbsp;名:&nbsp;&nbsp;<input type="text" name="Gname" id="username"  onblur="ajaxCheckName()"/>
+               			 	</td>
+               			 	<td class="right">
+                   		 		<span id="name_tip"><p></p></span>
+                			</td>
+            			</tr>
+						<tr>
+               			 	<td>
+                   			 价&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;格:&nbsp;&nbsp;<input type="text" name="price" id="price" onblur="ajaxCheckName()"/>
+               			 	</td>
+               			 	<td class="right">
+                   		 		<span id="O_price_tip"><p> </p></span>
+                			</td>
+            			</tr>
+            			<tr>
+               			 	<td>
+                   			 原&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp价:&nbsp;&nbsp;<input type="text" name="O_price" id="O_price" onblur="ajaxCheckOPrice()"/>
+               			 	</td>
+               			 	<td class="right">
+                   		 		<span ><p id="un"> </p></span>
+                			</td>
+            			</tr>
+						<tr>
+               			 	<td>
+                   			 已&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;售:&nbsp;&nbsp;<input type="text" name="Sales" id="Sales" />
+               			 	</td>
+               			 	<td class="right">
+                   		 		<span id="O_price_tip"><p id="un"> </p></span>
+                			</td>
+            			</tr>
+            			<tr>
+               			 	<td>
+                   			 主&nbsp;&nbsp;&nbsp;花&nbsp;&nbsp;&nbsp;材:&nbsp;&nbsp;<input type="text" name="Major_flower" id="Major_flower" />
+               			 	</td>
+               			 	<td class="right">
+                   		 		<span ><p id="un"> </p></span>
+                			</td>
+            			</tr>
+            			<tr>
+               			 	<td>
+                   			 主&nbsp;要&nbsp;花&nbsp;材:&nbsp;&nbsp;<input type="text" name="Major_flower_plus" id="Major_flower_plus" />
+               			 	</td>
+               			 	<td class="right">
+                   		 		<span ><p id="un"> </p></span>
+                			</td>
+            			</tr>
+            			<tr>
+               			 	<td>
+                   			 副&nbsp;&nbsp;&nbsp;花&nbsp;&nbsp;&nbsp;材:&nbsp;&nbsp;<input type="text" name="Deputy_flower" id="Deputy_flower" />
+               			 	</td>
+               			 	<td class="right">
+                   		 		<span ><p id="un"> </p></span>
+                			</td>
+            			</tr>
+						<tr>
+               			 	<td>
+                   			 花&nbsp;束&nbsp;类&nbsp;别:&nbsp;&nbsp;<input type="text" name="Classification_flower" id="Classification_flower" />
+               			 	</td>
+               			 	<td class="right">
+                   		 		<span ><p id="un"> </p></span>
+                			</td>
+            			</tr>
+            			<tr>
+               			 	<td>
+                   			 绿&nbsp;植&nbsp;工&nbsp;艺:&nbsp;&nbsp;<input type="text" name="Tech" id="Tech" />
+               			 	</td>
+               			 	<td class="right">
+                   		 		<span ><p id="un"> </p></span>
+                			</td>
+            			</tr>	
+                  <tr>
+                      <td>
+                         花&nbsp;束&nbsp;包&nbsp;装:&nbsp;&nbsp;<input type="text" name="Decoration" id="Decoration" />
+                      </td>
+                      <td class="right">
+                          <span ><p id="un"> </p></span>
+                      </td>
+                  </tr> 	
+						      <tr>
+               			 	<td>
+                   			 适&nbsp;用&nbsp;对&nbsp;象:&nbsp;&nbsp;<input type="text" name="Object" id="Object" />
+               			 	</td>
+               			 	<td class="right">
+                   		 		<span ><p id="un"> </p></span>
+                			</td>
+            			</tr>	
+						      <tr>
+               			 	<td>
+                   			 适&nbsp;用&nbsp;节&nbsp;日:&nbsp;&nbsp;<input type="text" name="Holiday" id="Holiday" />
+               			 	</td>
+               			 	<td class="right">
+                   		 		<span ><p id="un"> </p></span>
+                			</td>
+            			</tr>
+            			<tr>
+               			 	<td>
+                   			 适&nbsp;用&nbsp;场&nbsp;景:&nbsp;&nbsp;<input type="text" name="Scene" id="Scene" />
+               			 	</td>
+               			 	<td class="right">
+                   		 		<span ><p id="un"> </p></span>
+                			</td>
+            			</tr>	
+            			<tr>
+               			 	<td>
+                   			 颜&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;色:&nbsp;&nbsp;<input type="text" name="color" id="color" />
+               			 	</td>
+               			 	<td class="right">
+                   		 		<span ><p id="un"> </p></span>
+                			</td>
+            			</tr>	
+            			<tr>
+               			 	<td>
+                   			 图&nbsp;片&nbsp;地&nbsp;址:&nbsp;&nbsp;<input type="text" name="Photo_addr" id="Photo_addr" />
+               			 	</td>
+               			 	<td class="right">
+                   		 		<span ><p id="un"> </p></span>
+                			</td>
+            			</tr>		
+						 <tr>
+               				 <td>
+                   				 <input id="submit" type="button" value="submit"/>&nbsp;&nbsp;&nbsp;&nbsp;<input id="reset" type="reset" value="reset">
+                			</td>
+                			<td class="right">
+           
+               				 </td>
+          			  </tr>
+					
+					</table>
+			</form>
+		</div>
+	</div>
+
+	<!-- 表单认证 -->
+	<script type="text/javascript">
+		function ajaxCheckName(){
+			$.ajax({
+				url:"./goods_add_check.php?act=name",
+				type:"post",
+				dataType:"html",
+				data:{name:$("#name").val()},
+				success:function(data){
+					if(data=="请输入商品名字"){$("#name_tip").text(data).removeClass().addClass("red")}
+					if(data=="请继续输入其他信息"){$("#name_tip").text(data).removeClass().addClass("green")}
+				},
+				error:function(){
+					alert('fail')
+				}
+			})
+		}
+		function ajaxCheckPrice(){
+			$.ajax({
+				url:"./goods_add_check.php?act=price",
+				type:"post",
+				dataType:"html",
+				data:{name:$("#price").val()},
+				success:function(data){
+					if(data=="请输入商品价格"){$("#price_tip").text(data).removeClass().addClass("red")}
+					if(data=="请输入合法价格"){$("#price_tip").text(data).removeClass().addClass("red")}	
+					if(data=="请继续输入其他信息"){$("#price_tip").text(data).removeClass().addClass("green")}
+				},
+				error:function(){
+					alert('fail')
+				}
+			})
+		}
+		function ajaxCheckOPrice(){
+			$.ajax({
+				url:"./goods_add_check.php?act=O_price",
+				type:"post",
+				dataType:"html",
+				data:{name:$("#O_price").val()},
+				success:function(data){
+					if(data=="请输入商品价格"){$("#O_price_tip").text(data).removeClass().addClass("red")}
+					if(data=="请输入合法价格"){$("#O_price_tip").text(data).removeClass().addClass("red")}	
+					if(data=="请继续输入其他信息"){$("#O_price_tip").text(data).removeClass().addClass("green")}
+				},
+				error:function(){
+					alert('fail')
+				}
+			})
+		}
+	</script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+.goods .wrap_goods .goods_info .goods_info_sell{
+	height: 80px;
+	line-height: 80px;
+}
+.goods .wrap_goods .goods_info .goods_info_sell label{
+	display: inline-block;
+	float: left;
+}
+.goods .wrap_goods .goods_info .goods_info_sell .goods_sell{
+	width: 25%;
+	font-weight: 700;
+	font-size: 30px;
+	color: red;
+}
+.goods .wrap_goods .goods_info .goods_info_sell .goods_market{
+	width: 14%;
+	font-size: 14px;
+	text-decoration: line-through;
+	color: #333;
+}
+.goods .wrap_goods .goods_info .goods_info_sell .discount{
+	width: 8%;
+}
+.goods .wrap_goods .goods_info .goods_info_sell .discount .discount_val{
+	font-size: 12px;
+	color: #fff;
+	background:#cd823f;
+	padding: 1px 5px;
+	border-radius: 3px;
+}
+.goods .wrap_goods .goods_info .goods_info_sell .shop_info{
+	font-size: 14px;
+	text-align: right;
+	width: 16%;
+	color: #333;
+}

@@ -1,0 +1,23 @@
+.goods .wrap_goods .goods_info .goods_buy{
+	margin-bottom: 70px;
+	margin: 80px 0;
+}
+.goods .wrap_goods .goods_info .goods_buy a{
+	width: 195px;
+	height: 43px;
+	line-height: 43px;
+	margin-right: 20px;
+	display: inline-block;
+	font-size: 18px;
+	text-align: center;
+	background: #fff;
+	border:1px solid #666;
+	color: #333;
+}
+.goods .wrap_goods .goods_info .goods_buy .buy_fast{
+	background: red;
+	color: #fff;
+	border-width: 1px;
+	border-style: solid;
+	border-color: red;			
+}

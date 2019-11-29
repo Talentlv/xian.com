@@ -1,0 +1,132 @@
+/* aside */
+ul{
+	padding: 0;
+	margin: 0;
+}
+li{
+	list-style: none;
+}
+.aside{
+	display: flex;
+	width: 46px;
+	position: fixed;
+	right: 20px;
+	bottom: 50px;
+	border-radius: 3px;
+	background-color: #fff;
+	box-shadow: 0 0 20px #ccc;
+	z-index: 200;
+}
+.aside li:hover a{
+	background-color: #f1f1f1;
+}
+.aside li.ibut{
+	width: 46px;
+	height: 45px;
+}
+.aside li.cart{
+	width: 46px;
+}
+.aside li.cart a{
+	display: inline-block;
+	width: 46px;
+	position: relative;
+}
+.icon-aside{
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	margin: 11px;
+	vertical-align: middle;
+	background: url(../../images/sprites_rside.png) no-repeat;
+}
+.icon-cart2{
+	background-position: -246px 0;
+}
+.icon-scar-num2{
+	display: inline-block;
+	min-width: 13px;
+	height: 13px;
+	line-height: 13px;
+	border-radius: 11px;
+	background-color: #e02020;
+	color: #fff;
+	position: absolute;
+	top: 5px;
+	right: 2px;
+	font-size: 12px;
+	text-align: center;
+	margin: 3px;
+}
+.aside li.ibut a{
+	display: inline-block;
+	line-height: 46px;
+	color: #333;
+}
+.icon-favorite{
+	background-position: -246px -32px;
+}
+.aside li .asidepop{
+	min-width: 6em;
+	min-height: 46px;
+	line-height: 46px;
+	position: absolute;
+	top: 0;
+	right: 46px;
+	text-align: center;
+	z-index: 210;
+	background-color: #f1f1f1;
+	display: none;
+}
+.aside li.favorite .asidepop{
+	top: 46px;
+}
+.aside li:hover .asidepop{
+	display: block;
+	cursor: pointer;
+}
+.icon-history{
+	background-position: -246px -64px;
+}
+.icon-qrcode{
+	background-position: -246px -96px;
+}
+.icon-expanded{
+	background-position: -246px -125px;
+}
+.frcode{
+	width: 180px;
+}
+.frcode .note{
+	line-height: 25px;
+	font-size: 12px;
+	text-align: center;
+}
+.frcode .img{
+	margin-top: 10px;
+	text-align: center;
+}
+.frcode .title{
+	font-size: 14px;
+	text-align: center;
+}
+.iconbounce:hover{
+	-webkit-animation: icon-bounce .5s alternate;
+    animation: icon-bounce .5s alternate;
+    cursor: pointer;
+}
+
+.hover{
+	-webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.hover:hover{
+	-webkit-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    transform: scale(1.03);
+    -webkit-box-shadow: 0 3px 10px #e5e5e5;
+    box-shadow: 0 3px 10px #e5e5e5;
+    background-color: #f9f9f9;
+}

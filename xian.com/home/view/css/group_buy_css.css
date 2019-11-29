@@ -1,0 +1,129 @@
+
+		*{
+			padding: 0px;
+			margin: 0px;
+		}
+		a{
+		    color: #333;
+		    text-decoration: none;
+        }
+		.backup{
+			height: 60px;
+		}
+		.top_2{
+			height: 420px;
+			width: 800px;
+			background: #fff;
+			margin: 0px auto;
+			text-align: center;
+			margin-top: 30px;
+		}
+		.top_p1{
+			font-size: 32px;
+			color: #333;
+		}
+		.top_p2{
+			font-size: 20px;
+			color: #777;
+			margin: 10px;
+		}
+		.top_info_1{
+			float: left;
+			width: 200px;
+			height: 240px;
+			margin-left: 45px;
+		}
+		.top_info_t1{
+			margin-top: 40px;
+			font-weight: 700;
+			font-size: 18px;
+		}
+		.top_info_t2{
+			color: #777;
+			font-size: 18px;
+			margin-top: 26px;
+		}
+		.text1{
+			height: 806px;
+			width: 100%;
+			background: rgb(248,248,248);
+			text-align: center;
+			width: 100%;
+		}
+		.text_t1{
+			font-size: 32px;
+			color: #333;
+
+		}
+		.text_t2{
+			font-size: 20px;
+			color: #777;
+			margin-top: 20px;
+		}
+		.text_info{
+			width: 1500px;
+			margin: 0px auto;
+			height: 432px;
+			text-align: center;
+		}
+		.text1_info_1{
+			width: 374px;
+			height: 432px;
+			background: #fff;
+			float: left;
+			margin: 0px auto;		}
+		.text1_info_t1{
+			font-size: 22px;
+		    margin-top: 27px;
+		    margin-bottom: 20px;
+		    color: #333;
+		}
+		.text1_info_t2{
+			margin-top: 10px;
+		}
+		.case{
+			height: 856px;
+			text-align: center;
+			border-radius: 5px;
+			width: 100%;
+
+		}
+		.case_info{
+			width: 1300px;
+			text-align: center;
+			margin:0 auto;
+		}
+		.case_info_1{
+			width: 374px;
+			height: 553px;
+			margin-left: 50px;
+			text-align: left;
+			box-shadow: 0 0 20px #e5e5e5;
+			float: left;
+		}
+		.case_text{
+			width: 90%;
+			margin: 0 auto;
+		}
+		.tt{
+			font-size: 22px;
+		    margin-bottom: 20px;
+		    color: #333;
+		    font-weight: 700;
+		}
+		.s1{
+			color: #333;
+			font-weight: bold;
+		}
+		.s2{
+			color: #777;
+		}
+		.advantage{
+			height: 558px;
+			width: 100%;
+			background: rgb(248,248,248);
+			text-align: center;
+		}
+		.ad_img img{
+			margin-left: 20px;
+		}

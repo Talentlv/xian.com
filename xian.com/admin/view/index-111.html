@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<script type="text/javascript" src="../controller/jquery-3.4.1/jquery-3.4.1.js"></script>
+	<title>Admin Login</title>
+	<style type="text/css">
+		body{
+			height: 780px;
+		}
+		.login_content{
+			background: url('./images/Lighthouse.png') no-repeat;
+			height: 100%;
+			width: 100%;
+			background-size: 100%;
+		}
+		.login_content .login_fram{
+			text-align: center;
+			height: 200px;
+			width: 300px;
+			margin: 0px auto;
+		}
+
+	</style>
+</head>
+<body>
+	<div class='login_content'>
+		<form action="../api/check_admin.php" method="post">
+			<div class="login_fram">
+				<div class="item">
+					<input type="text" class="input-style" name="admin" id="admin" placeholder="请输入管理员账号">
+				</div>
+				<div class="item">
+					<input type="password" class="input-style" name="password" placeholder="请输入登录密码">
+				</div>
+				<div class="item">
+					<button type="submit" class="button-style" οnclick="window.parent.location.href='../api/check_admin.php">登 录</button>					
+				</div>
+			</div>
+		</form>
+	</div>
+
+
+</body>
+</html>

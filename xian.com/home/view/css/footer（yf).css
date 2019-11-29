@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>鲜花网</title>
+	<style type="text/css">
+		.footer{
+			width: 100%;
+			border-top: 1px solid #f2eeee;
+			background: #ccc;
+		}
+		.footer .wrap{
+			width: 1200px;
+			height: 250px;
+			margin: 0 auto;
+			position: relative;
+		}
+
+		.footer .wrap .footer_item_link{
+			float: left;
+			margin-top: 60px;
+			width: 398px;
+		}
+		.footer .wrap .footer_item_link a{
+			margin: 5px;
+			text-decoration: none;
+		}
+		.footer .wrap .footer_item_link p{
+			font-size: 12px;
+			color: #333;
+			line-height: 2;
+			margin-top: 26px;
+		}
+
+		.footer .wrap .r_code{
+			text-align: center;
+			float: left;
+			margin-top: 45px;
+			width: 398px;
+		}
+		.footer .wrap .r_code img{
+			box-shadow: 0 0 20px #ccc;
+			margin-bottom: 15px;
+		}
+
+		.footer .wrap .footer_other{
+			float: right;
+			margin-top: 60px;
+			margin-left: 6px;
+			width: 398px;
+			display: inline-block;
+		}
+		.footer .wrap .footer_other .footer_other_link{
+			margin-bottom: 32px;
+		}
+		.footer .wrap .footer_other .footer_other_link a{
+			text-decoration: none;
+			margin: 22px;
+			color: #333;
+		}
+		.footer .wrap .footer_other .footer_other_link a:hover{
+			color: red;
+		}
+		.footer .wrap .footer_other .footer_other_tel{
+			margin-left: 24px;
+			margin-bottom: 24px;
+			color: #777;
+		}
+		.footer .wrap .footer_other .footer_other_tel span{
+			margin-left: 24px;
+			color: #333;
+			font-weight: 700;
+		}
+		.footer .wrap .footer_other .footer_other_customs{
+			margin-left: 24px;
+			padding: 12px 28px;
+			border: 1px solid #dcdcdc;
+			border-radius: 5px;
+			display: inline-block;
+			cursor: pointer;
+		}
+		.footer .wrap .footer_other .footer_other_customs a{
+			text-decoration: none;
+			color: #333;
+		}
+		.footer .wrap .footer_other .footer_other_customs a:hover{
+			color: red;
+		}
+	</style>
+</head>
+<body>
+</body>
+</html>

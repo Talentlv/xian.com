@@ -1,0 +1,254 @@
+
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		a{
+		    color: #333;
+		    text-decoration: none;
+        }
+        .week_box{
+        	width: 1900px;
+        }
+        .backup{
+			height: 60px;
+		}
+        .text_info{
+			width: 1200px;
+			margin: 0px auto;
+			height: 408px;
+			text-align: center;
+		}
+		.text1_info_1{
+			width: 220px;
+			height: 432px;
+			background: #fff;
+			float: left;
+			margin: 0px auto;		}
+		.text1_info_t1{
+			font-size: 22px;
+		    margin-top: 27px;
+		    margin-bottom: 20px;
+		    color: #333;
+		}
+		.text1_info_t2{
+			margin-top: 10px;
+			color: #999;
+			font-size: 14px;
+		}
+		.text_top_1{
+			text-align: center;
+			height: 800px;
+		}
+		.text_top_1_1{
+			margin: 0px auto;
+			width: 500px;
+		}
+		.text_top_1_s1{
+			font-size: 24px;
+		    height: 65px;
+		    line-height: 65px;
+		    vertical-align: top;
+		}
+		.text_top_1_p1{
+			text-align: center;
+		    margin-top: 16px;
+		    font-size: 16px;
+		    color: #999;
+		}
+		.goods{
+			width: 1800px;
+			height: 550px;
+			margin: 0px auto;
+		}
+		.goods a{
+			text-decoration: none;
+			color: black;
+		}
+		.goods img{
+			width: 349px;
+			margin: 0px auto;
+			text-align: center;
+			transition: all 0.6s;    /*//设置浮动的时间*/
+			box-shadow: 8px 8px 8px #ccc;
+		}
+		.goods img:hover{
+			transform: scale(1.05);		/*设置放大的倍数*/
+		}
+		.goods_div{
+			margin-top: 40px;
+			width: 23%;
+			float: left;
+
+		}
+		.goods_text{
+			text-align: center;
+		}
+		.goods_text_1{
+			height: 50px;
+			line-height: 50px;
+		}
+		.goods_price{
+			height: 50px;
+			width: 250px;
+			line-height: 50px;
+			text-align: center;
+			margin: 0px auto;
+			border-bottom: 1px solid #eaeaea;
+		}
+		.goods_text_2{
+			color: red;
+			font-weight: bold;
+			font-size:24px;
+			height: 50px;
+			line-height: 50px;
+		}
+		.goods_text_3{
+			margin-left: 20px;
+			color: #ccc;
+			font-weight: bold;
+			font-size:18px;
+			height: 50px;
+			line-height: 50px;
+		}
+		.goods_text_4{
+			color: #a17536;
+			margin-top: 25px;
+			margin-bottom: 25px;
+		}
+		.text_2{
+
+		}
+		.text_2_info{
+			height: 800px;
+		}
+		.text_2_img1{
+			width:390px;
+			height: 590px;
+			position: relative;
+			left: 350px;
+			z-index: 50;
+		}
+		.text_2_img2{
+			width:1200px;
+			height: 200px;
+			position: relative;
+			top: 80px;
+			right: 40px;
+		}
+		.text_2_tt_1{
+			width: 380px;
+			height: 407px;
+			position: relative;
+			top: -600px;
+			left: 1200px;
+		}
+		.text_2_t1{
+			margin-top: 110px;
+			font-size: 26px;
+    		font-weight: 500;
+		}
+		.text_2_t2{
+			margin-top:22px;
+			
+    		color: #777;
+		}
+		.text_2_t3{
+			font-size: 18px;
+   		 	color: #f93d3d;
+    		margin-top: 40px;
+		}
+		.text_2_t4{
+			width: 154px;
+			height: 42px;
+			line-height: 42px;
+			text-align: center;
+			font-size: 18px;
+    		margin-top: 65px;
+    		border: 1px solid black;
+		}
+		.text_2_t4:hover{
+			color: #f93d3d;
+			border: 1px solid #f93d3d;
+		}
+		.text_2_img3{
+			width:390px;
+			height: 590px;
+			position: relative;
+			left: 1200px;
+			z-index: 50;
+		}
+		.text_2_img4{
+			width:1200px;
+			height: 178px;
+			position: relative;
+			top: -80px;
+			right: 0px;
+		}
+		.text_2_tt_2{
+			width: 380px;
+			height: 407px;
+			position: relative;
+			top: -600px;
+			left: 350px;
+		}
+		.text_2_img7{
+			position: relative;
+			left: -50px;
+		}
+		.text_2_img8{
+			position: relative;
+			left: 600px;
+		}
+		.last{
+			width: 1450px;
+			height: 715px;
+			margin: 0px auto;
+
+		}
+		.last_t1{
+			width: 520px;
+			height: 440px;
+			float: left;
+			margin-left: 200px;
+
+		}
+		.last_i{
+			width: 700px;
+			height: 440px;
+			float: left;
+		}
+		.last_s1{
+
+		}
+		.last_p1{
+			font-size: 36px;
+			font-weight: 500;
+		}
+		.last_p2{
+			color: #999;
+			line-height: 30px;
+		    margin-top: 30px;
+		    font-size: 16px;
+		    overflow: hidden;
+		    word-spacing: 2px;
+		}
+		.last_p3{
+			    color: #4a8871;
+			   	width: 160px;
+			   	height: 30px;
+			   	float: right;
+			    margin-top: 20px;
+			    border-bottom: 2px solid #4a8871;
+		}
+		.last_img{
+			float: left;
+			width: 320px;
+			height: 440px;
+			margin-left: 30px;
+			text-align: center;
+			transition: all 0.6s;    /*//设置浮动的时间*/
+		}
+		.last_img:hover{
+			transform: scale(1.05);		/*设置放大的倍数*/
+		}

@@ -1,0 +1,56 @@
+/* 图片抖动 */
+@keyframes icon-bounce{
+	0%,100%{
+		-ms-transform: rotate(0deg);
+		-webkit-transform:rotate(0deg);
+		transform: rotate(0deg);
+	}
+	25%{
+		-ms-transform: rotate(15deg);
+		-webkit-transform:rotate(15deg);
+		transform: rotate(15deg);
+	}
+	50%{
+		-ms-transform: rotate(-15deg);
+		-webkit-transform:rotate(-15deg);
+		transform: rotate(-15deg);
+	}
+	75%{
+		-ms-transform: rotate(5deg);
+		-webkit-transform:rotate(5deg);
+		transform: rotate(5deg);
+	}
+	85%{
+		-ms-transform: rotate(-5deg);
+		-webkit-transform:rotate(-5deg);
+		transform: rotate(-5deg);
+	}
+}
+
+@webkit-keyframes icon-bounce{
+	0%,100%{
+		-ms-transform: rotate(0deg);
+		-webkit-transform:rotate(0deg);
+		transform: rotate(0deg);
+	}
+	25%{
+		-ms-transform: rotate(15deg);
+		-webkit-transform:rotate(15deg);
+		transform: rotate(15deg);
+	}
+	50%{
+		-ms-transform: rotate(-15deg);
+		-webkit-transform:rotate(-15deg);
+		transform: rotate(-15deg);
+	}
+	75%{
+		-ms-transform: rotate(5deg);
+		-webkit-transform:rotate(5deg);
+		transform: rotate(5deg);
+	}
+	85%{
+		-ms-transform: rotate(-5deg);
+		-webkit-transform:rotate(-5deg);
+		transform: rotate(-5deg);
+	}
+}

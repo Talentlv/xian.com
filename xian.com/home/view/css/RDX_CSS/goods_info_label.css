@@ -1,0 +1,37 @@
+.goods .wrap_goods .goods_info .goods_label{
+	height: 65px;
+	line-height: 65px;
+	border-bottom: 1px dashed #dcdcdc;
+}
+.goods .wrap_goods .goods_info .goods_label .label_detail{
+	/*clear: both !important;*/
+}
+.goods .wrap_goods .goods_info .goods_label dl dt{
+	width: 80px;
+	font-size: 16px;
+	font-weight: 700;
+	color: rgb(51,51,51);
+	float: left;
+}
+.goods .wrap_goods .goods_info .goods_label dl dd{
+	margin-right: 8px;
+	float: left;
+	margin-left: -2px;
+}
+.goods .wrap_goods .goods_info .goods_label dl dd a{
+	height: 24px;
+	line-height: 24px;
+	display: inline-block;
+	padding: 0 8px;
+	border: 1px solid #d2d2d2;
+	border-radius: 3px;
+	color: #777;
+}
+.goods .wrap_goods .goods_info .goods_label dl dd .more{
+	border: none;
+	color: #0736e3;
+}
+.goods .wrap_goods .goods_info .goods_label dl dd a:hover{
+	color: red;
+	border-color: red;
+}
